@@ -1,0 +1,151 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.timeline {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timeline_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.numberOn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  position: relative;
+}
+.numberOff {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 5px solid rgb(202, 198, 198);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  position: relative;
+}
+.bar {
+  width: 100px;
+  height: 5px;
+  background-color: rgb(202, 198, 198);
+  overflow: hidden;
+  position: relative;
+}
+.barIndicator {
+  width: 100px;
+  height: 5px;
+  background-color: red;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+.barIndicatorOn {
+  transition: all 0.5s ease-in-out;
+  transform: translateX(100px);
+}
+.barIndicatorOff {
+  transform: translateX(-100px);
+  transition: all 0.7s ease-in-out;
+}
+.btn_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btnOff {
+  background-color: rgb(202, 198, 198);
+  cursor: not-allowed;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  width: 110px;
+  height: 45px;
+  border-radius: 10px;
+}
+.btn {
+  width: 110px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(241, 136, 37);
+  margin: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+h3 {
+  color: rgb(138, 133, 133);
+}
+
+/* heart animation */
+.heart_container {
+  display: none;
+}
+.heart_containerActive {
+  animation: pulse 1s infinite;
+  position: absolute;
+  top: -100px;
+  left: 5px;
+}
+
+.pulsingheart {
+  position: relative;
+  width: 25px;
+  height: 15px;
+}
+
+.pulsingheart:before,
+.pulsingheart:after {
+  position: absolute;
+  content: "";
+  left: 20px;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  background: #aa0000;
+  border-radius: 30px 30px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  animation: pulsecolor 1s infinite;
+}
+
+.pulsingheart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  animation: pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+  10% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes pulsecolor {
+  10% {
+    background: #dd0000;
+  }
+}
