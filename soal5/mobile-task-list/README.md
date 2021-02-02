@@ -33,8 +33,8 @@ Aplikasi untuk memanage timeline tugas atau list pekerjaan kita.
 ## Installation for Development
 
 1. Buka terminal or command prompt
-2. Ketikkan `git clone https://github.com/solehudin5699/MariBlanja.git`
-3. Buka folder and jalankan `npm install` untuk install dependencies
+2. Ketikkan `git clone https://github.com/solehudin5699/RefactoryId-techtest.git`
+3. Buka folder `mobile-task-list` dan jalankan `npm install` untuk install dependencies
 4. Run `react-native run-android` pada terminal untuk run app.
 
 ## Screenshoots
