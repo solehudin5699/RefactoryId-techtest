@@ -54,6 +54,6 @@ Aplikasi untuk memanage timeline tugas atau list pekerjaan kita.
 
 Download apk release dan install pada android melalui link di bawah
 
-<a href="http://bit.ly/mariblanja_app">
-<img src="https://drive.google.com/file/d/15gGLpi3q4RerdcgUJVura38zUDxZOAZO/view?usp=sharing"/>
+<a href="https://drive.google.com/file/d/15gGLpi3q4RerdcgUJVura38zUDxZOAZO/view?usp=sharing">
+<img src="https://img.shields.io/badge/Download%20Tasklist%20on%20the-Google%20Drive-blue.svg?style=popout&logo=google-drive"/>
 </a>
