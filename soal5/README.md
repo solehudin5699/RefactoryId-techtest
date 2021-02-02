@@ -13,11 +13,13 @@ Go To
 
 ### Web Timeline Horizontal
 
-Buatlah tampilan sesuai link di bawah dengan halaman static sederhana di github
-pages dengan HTML, CSS, Javascript dan berikan alamat github pages kalian yang
-sudah jadi.
-https://drive.google.com/file/d/1QfiNdjBMGTVwQHTqhQFDedJR3WY-1x72/view?usp=sharing
+Buatlah tampilan sesuai link
+(https://drive.google.com/file/d/1QfiNdjBMGTVwQHTqhQFDedJR3WY-1x72/view?usp=sharing)
+di bawah dengan halaman static sederhana di github pages dengan HTML, CSS,
+Javascript.
+
 Go to
 [`web-horizontal-timeline`](https://github.com/solehudin5699/RefactoryId-techtest/tree/master/soal5/web-horizontal-timeline)
-atua
+
+atau
 [`Lihat Demo web-horizontal-timeline`](https://solehudin5699.github.io/RefactoryId-techtest/tree/master/soal5/web-horizontal-timeline)
