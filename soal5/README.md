@@ -1,5 +1,6 @@
-### Buatlah aplikasi apps mobile / web dengan mengikuti format desain sebagai
+### Aplikasi apps mobile
 
+Buatlah aplikasi apps mobile / web dengan mengikuti format desain sebagai
 berikut:
 https://www.figma.com/file/uvLIMVVlssrWOYa8xMfvnQ/Untitled?node-id=0%3A1
 
@@ -10,10 +11,11 @@ https://www.figma.com/file/uvLIMVVlssrWOYa8xMfvnQ/Untitled?node-id=0%3A1
 Go To
 [`mobile-task-list`](https://github.com/solehudin5699/RefactoryId-techtest/tree/master/soal5/mobile-task-list)
 
-### Buatlah tampilan sesuai link di bawah dengan halaman static
+### Web Timeline Horizontal
 
-sederhana di github pages dengan HTML, CSS, Javascript dan berikan alamat github
-pages kalian yang sudah jadi.
+Buatlah tampilan sesuai link di bawah dengan halaman static sederhana di github
+pages dengan HTML, CSS, Javascript dan berikan alamat github pages kalian yang
+sudah jadi.
 https://drive.google.com/file/d/1QfiNdjBMGTVwQHTqhQFDedJR3WY-1x72/view?usp=sharing
 Go to
 [`web-horizontal-timeline`](https://github.com/solehudin5699/RefactoryId-techtest/tree/master/soal5/web-horizontal-timeline)

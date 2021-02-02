@@ -40,14 +40,14 @@ Aplikasi untuk memanage timeline tugas atau list pekerjaan kita.
 ## Screenshoots
 
 <div align="center">
-    <img width="30%" src="./screenshoot/sc1.png">
-    <img width="30%" src="./screenshoot/sc2.png">
-    <img width="30%" src="./screenshoot/sc3.png">
+    <img width="30%" src="./screenshoot/sc1.jpg">
+    <img width="30%" src="./screenshoot/sc2.jpg">
+    <img width="30%" src="./screenshoot/sc3.jpg">
 </div>
 <div align="center">
-    <img width="30%" src="./screenshoot/sc4.png">
-    <img width="30%" src="./screenshoot/sc5.png">
-    <img width="30%" src="./screenshoot/sc6.png">
+    <img width="30%" src="./screenshoot/sc4.jpg">
+    <img width="30%" src="./screenshoot/sc5.jpg">
+    <img width="30%" src="./screenshoot/sc6.jpg">
 </div>
 
 ## APK Release
