@@ -9,7 +9,7 @@ HVS.
 ### Jawaban
 
 dengan menggunakan readline, maka input yang dinginkan untuk dicetak dapat
-dimasukkan pada terminal: Jalankan/run `node index` untuk menjalankannya Contoh
+dimasukkan pada terminal: Jalankan/run `node index` untuk menjalankannya. Contoh
 tampilan pada terminal saat di running:
 
 ```bash

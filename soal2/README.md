@@ -3,7 +3,7 @@
 data json berasal dari
 `https://gist.github.com/dhamanutd/6993984928506eea49908c2e3fcbc628`
 
-Run `node index`
+Jalankan/run `node index` pada terminal untuk memulai
 
 ##### 1. Find users who doesn't have any phone numbers.
 
