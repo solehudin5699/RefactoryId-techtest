@@ -3,19 +3,19 @@ const data = require("./data.json");
 const itemInMeetRoom = data.filter(
   (item) => item.placement.name.toLowerCase() === "Meeting Room".toLowerCase()
 );
-// console.log(itemInMeetRoom);
+console.log(itemInMeetRoom);
 
 // 2.	Find all electronic devices.
 const itemElectronis = data.filter(
   (item) => item.type.toLowerCase() === "electronic".toLowerCase()
 );
-// console.log(itemElectronis);
+console.log(itemElectronis);
 
 // 3.	Find all furnitures.
 const itemFurnitures = data.filter(
   (item) => item.type.toLowerCase() === "furniture".toLowerCase()
 );
-// console.log(itemFurnitures);
+console.log(itemFurnitures);
 
 // 4.	Find all items was purchased at 16 Januari 2020.
 const itemBasedDate = data.filter(
@@ -23,7 +23,7 @@ const itemBasedDate = data.filter(
     new Date(item.purchased_at).toLocaleDateString() ==
     new Date("2020-1-16").toLocaleDateString()
 );
-// console.log(itemBasedDate);
+console.log(itemBasedDate);
 
 // 5.	Find all items with brown color.
 const itemBasedTags = data.filter((item) =>
