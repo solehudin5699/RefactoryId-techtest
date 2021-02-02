@@ -26,3 +26,5 @@
 - error pada CROSS ORIGIN, setelah dilihat ternyata perlu ditambahkan Client
   Secret pada saat request akses token (method onGetAccessToken pada component
   GithubLogin)
+
+Note : Masih ada masalah yang masih perlu didebug

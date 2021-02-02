@@ -12,7 +12,9 @@ function App() {
         <GitHubLogin
           clientId={process.env.REACT_APP_CLIENT_ID}
           redirectUri={process.env.REACT_APP_REDIRECT_URI}
-          onSuccess={(name) => setName(name)}
+          onSuccess={(
+            name //setName(name)
+          ) => console.log(name)}
           onFailure={(resp) => console.log(resp)}
         />
       </header>

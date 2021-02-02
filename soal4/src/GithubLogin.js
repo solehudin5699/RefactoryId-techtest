@@ -73,23 +73,26 @@ class GitHubLogin extends Component {
     const options = { headers: { accept: "application/json" } };
     axios
       .post(`https://github.com/login/oauth/access_token`, body, options)
-      .then((access_token) => {
-        this.onGetProfile(access_token);
+      .then((res) => {
+        this.onGetProfile(res.data.access_token);
+        // console.log(res.data.access_token);
       })
       .catch((err) => this.onFailure(err.message));
   };
 
   onGetProfile = (token) => {
     axios({
-      method: "get",
+      method: "GET",
       url: `https://api.github.com/user`,
       headers: {
         Authorization: "token " + token,
       },
-    }).then((response) => {
-      this.props.onSuccess(response.data.data);
-      console.log(response.data.data);
-    });
+    })
+      .then((response) => {
+        // this.props.onSuccess(response.data);
+        console.log(response.data);
+      })
+      .catch((err) => console.log(err));
   };
 
   render() {
