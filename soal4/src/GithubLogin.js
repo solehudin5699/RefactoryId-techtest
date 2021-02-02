@@ -67,7 +67,7 @@ class GitHubLogin extends Component {
     const { clientId, clientSecret } = this.props;
     const body = {
       client_id: clientId,
-      client_secret: clientSecret,
+      client_secret: process.env.REACT_APP_CLIENT_SECRET, //clientSecret,
       code: code,
     };
     const options = { headers: { accept: "application/json" } };
@@ -87,7 +87,8 @@ class GitHubLogin extends Component {
         Authorization: "token " + token,
       },
     }).then((response) => {
-      this.props.onSuccess(response.data);
+      this.props.onSuccess(response.data.data);
+      console.log(response.data.data);
     });
   };
 

@@ -27,6 +27,7 @@ function nextStep() {
       .setAttribute("class", "barIndicator barIndicatorOn");
     setTimeout(() => {
       document.querySelector("#step4").setAttribute("class", "numberOn");
+      heartContainer.setAttribute("class", "heart_containerActive");
     }, 500);
   }
 }
@@ -60,7 +61,6 @@ function btnStatus() {
     prevButton.setAttribute("class", "btn");
   }
   if (step == 3) {
-    heartContainer.setAttribute("class", "heart_containerActive");
     nextButton.setAttribute("class", "btnOff");
   } else {
     nextButton.setAttribute("class", "btn");
