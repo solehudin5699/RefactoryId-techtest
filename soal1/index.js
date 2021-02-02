@@ -53,7 +53,6 @@ const cetakStruk = () => {
   rl.question(
     "FORMAT->namawarung,tgl,kasir,produk1=harga1|produk2=harga2|produk3=harga3 dan seterusnya sejumlah produk yang dirder : ",
     (answer) => {
-      numOrder = answer;
       //namawarung,tgl,kasir,product=harga|product=harga|product=harga
       let namaWarung = answer.split(",")[0];
       let tanggal = answer.split(",")[1];
