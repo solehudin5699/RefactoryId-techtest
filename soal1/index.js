@@ -61,7 +61,6 @@ const cetakStruk = () => {
       cetakIdentitas(namaWarung, tanggal, namaKasir);
       cetakProduk(listProduk);
       //cetakIdentitas()
-      // console.log(numOrder);
       rl.close();
     }
   );
