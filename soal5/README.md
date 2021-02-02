@@ -22,4 +22,4 @@ Go to
 [`web-horizontal-timeline`](https://github.com/solehudin5699/RefactoryId-techtest/tree/master/soal5/web-horizontal-timeline)
 
 atau
-[`Lihat Demo web-horizontal-timeline`](https://solehudin5699.github.io/RefactoryId-techtest/tree/master/soal5/web-horizontal-timeline)
+[`Lihat Demo web-horizontal-timeline`](https://solehudin5699.github.io/RefactoryId-techtest/soal5/web-horizontal-timeline)
